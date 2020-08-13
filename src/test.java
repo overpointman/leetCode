@@ -7,8 +7,10 @@ public class test {
 
 
     public static void main(String[] args) throws InterruptedException {
-        String s = "12";
-        System.out.println(s.substring(0, 0));
+        int a = 'a';
+        int b = '2';
+        System.out.println(a);
+        System.out.println(b);
     }
 
 }
