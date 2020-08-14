@@ -9,8 +9,7 @@ public class test {
     public static void main(String[] args) throws InterruptedException {
         int a = 'a';
         int b = '2';
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println(a % b);
     }
 
 }
