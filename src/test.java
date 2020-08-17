@@ -1,3 +1,5 @@
+import java.util.PriorityQueue;
+
 /**
  * @author: alangong
  * @create: 2020-08-09 09:24
@@ -6,10 +8,8 @@
 public class test {
 
 
-    public static void main(String[] args) throws InterruptedException {
-        int a = 'a';
-        int b = '2';
-        System.out.println(a % b);
+    public static void main(String[] args) {
+        PriorityQueue<String> heap = new PriorityQueue<>();
     }
 
 }
