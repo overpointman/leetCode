@@ -1,5 +1,3 @@
-import javafx.beans.binding.ObjectExpression;
-
 import java.io.*;
 
 /**
@@ -10,9 +8,9 @@ import java.io.*;
 public class Student implements Cloneable, Serializable {
     transient String name;
 
-    Parent parent;
+    parent parent;
 
-    public Student(String name, Parent parent) {
+    public Student(String name, parent parent) {
         this.name = name;
         this.parent = parent;
     }
@@ -31,18 +29,18 @@ public class Student implements Cloneable, Serializable {
     }
 
     public static void main(String[] args) throws CloneNotSupportedException {
-        Parent p = new Parent("wenxia", "50");
+        parent p = new parent("wenxia", "50");
         Student s = new Student("alangong", p);
         s.clone();
     }
 }
 
-class Parent implements Serializable{
+class parent implements Serializable{
     String name;
 
     String age;
 
-    public Parent(String name, String age) {
+    public parent(String name, String age) {
         this.name = name;
         this.age = age;
     }
