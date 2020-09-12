@@ -9,7 +9,10 @@ public class test {
 
 
     public static void main(String[] args) {
-        PriorityQueue<String> heap = new PriorityQueue<>();
+        String c = new String("abc");
+        String a = "abc";
+        String b = "abc";
+        System.out.println(a == c);
     }
 
 }
